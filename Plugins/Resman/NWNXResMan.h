@@ -4,9 +4,22 @@
 #include <string>
 #include <unordered_map>
 
-#include "NWNXBase.h"
-#include "NwnDefines.h"
-#include "api/all.h"
+#include "API/CAppManager.hpp"
+#include "API/CExoString.hpp"
+#include "API/CNWSClient.hpp"
+#include "API/CNWSDungeonMaster.hpp"
+#include "API/CNWSMessage.hpp"
+#include "API/CNWSPlayer.hpp"
+#include "API/Constants.hpp"
+#include "API/CServerExoApp.hpp"
+#include "API/CVirtualMachine.hpp"
+#include "API/Functions.hpp"
+#include "API/Globals.hpp"
+#include "Services/Config/Config.hpp"
+#include "Services/Hooks/Hooks.hpp"
+#include "ViewPtr.hpp"
+
+using namespace NWNXLib;
 
 #define MAXPATH 512
 
