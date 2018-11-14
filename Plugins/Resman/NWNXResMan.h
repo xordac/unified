@@ -31,7 +31,7 @@ struct CResFileInfo {
     off_t size;
     time_t mtime;
     time_t latest_mtime;
-    CKeyTableEntry *key;
+    CKeyTableEntry key;
 };
 
 typedef std::unordered_map<std::string, CResFileInfo> ResourceMap;
